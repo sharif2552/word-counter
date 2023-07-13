@@ -1,13 +1,11 @@
-
+# reading fromt the file 
 file = open("filename.txt", "r")
-
 content = file.read()
 words = content.split()
 words = [word.lower() for word in words]
 file.close()
 
-
-
+#my word list that is goint to be used for searching
 wordlist=["Python", "JavaScript", "Java", "C++", "C#", "Ruby", "a","b"]
 wordlist = [word.lower() for word in wordlist]
 
