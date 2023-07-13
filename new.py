@@ -14,7 +14,7 @@ word_count = {}
 for searchword in wordlist:
     word_count[searchword] = 0
     for word in words:
-        if searchword==word:
+        if searchword==word: 
             if searchword in word_count:
                 word_count[searchword] += 1
             else:
